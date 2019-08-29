@@ -5,7 +5,7 @@ Circle Progress Bar iOS Control written in swift.
 
 Require iOS 7.0+ or tvOS 9.0+
 
-![CircleProgressBar Screenshot-iOS-Example](https://raw.githubusercontent.com/Eclair/CircleProgressBar/master/Screenshots/ios-screen01.png)
+![CircleProgressBar Screenshot-iOS-Example](https://github.com/xdongliu123/SwiftCircleProgressBar/blob/master/Screenshot/demo.png)
 
 Installation
 ============
