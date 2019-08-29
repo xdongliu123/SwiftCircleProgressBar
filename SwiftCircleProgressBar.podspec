@@ -91,7 +91,7 @@ a circle progress bar control written in swift for ios development
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "SwiftCircleProgressBarDemo⁩/CircleProgressBar"
+  s.source_files  = "SwiftCircleProgressBarDemo⁩/CircleProgressBar/*"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
