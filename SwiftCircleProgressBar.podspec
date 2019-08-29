@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "CircleProgressBar"
+  s.name         = "SwiftCircleProgressBar"
   s.version      = "0.1"
   s.summary      = "a circle progress bar control written in swift for ios development"
 
@@ -15,7 +15,9 @@ Pod::Spec.new do |s|
   # Or just: s.author    = "xdongliu123"
   # s.authors            = { "xdongliu123" => "email@address.com" }
   # s.social_media_url   = "http://twitter.com/xdongliu123"
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "11.0"
+  s.swift_versions = '5.0'
   s.source       = { :git => "https://github.com/xdongliu123/SwiftCircleProgressBar.git", :tag => s.version.to_s }
-  s.source_files  = "SwiftCircleProgressBarDemo⁩/CircleProgressBar/*"
+  s.source_files  = "SwiftCircleProgressBarDemo/CircleProgressBar/*"
+  s.framework    = 'UIKit', 'QuartzCore'
 end
